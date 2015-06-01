@@ -17,16 +17,16 @@
 	"segments": {
 		"left": [
 			{
-				"name": "hostname"
+				"function": "hostname"
 			},
 			{
-				"name": "user"
+				"function": "user"
 			},
 			{
-				"name": "virtualenv"
+				"function": "virtualenv"
 			},
 			{
-				"name": "cwd",
+				"function": "cwd",
 				"args": {
 					"dir_limit_depth": 3
 				}
@@ -35,11 +35,11 @@
 		"right": [
 			{
 				"module": "powerline.segments.shell",
-				"name": "last_pipe_status",
+				"function": "last_pipe_status",
 				"highlight_group": "exit_fail"
 			},
 			{
-				"name": "branch"
+				"function": "branch"
 			}
 		]
 	}

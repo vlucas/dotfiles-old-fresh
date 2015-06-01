@@ -71,7 +71,6 @@ fresh-options
 fresh config/tmuxinator  --file=~/.tmuxinator/
 
 # powerline: the ultimate statusline
-fresh Lokaltog/powerline scripts/powerline --bin
 fresh Lokaltog/powerline powerline --file=~/.local/lib/python/powerline/
 fresh config/powerline --file=~/.config/powerline/
 fresh Lokaltog/powerline font --file=~/.fonts/

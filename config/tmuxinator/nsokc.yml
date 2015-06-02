@@ -1,9 +1,9 @@
 # ~/.tmuxinator/nsokc.yml
 
-project_name: CMS_OKC
-project_root: /webdev/NetLedger_CMS_OKC
+name: CMS_OKC
+root: /webdev/NetLedger_CMS_OKC
 pre: tmux set-window-option -g monitor-activity off
-tabs:
+windows:
   - editor: vim
   - shell:
   - test:

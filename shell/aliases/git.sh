@@ -30,6 +30,7 @@ alias gba='git branch -a'
 alias gbmd='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias prune='git remote prune origin'
 
+alias g='git status'
 alias gs='git status'
 
 gra() { git remote add ${2:-"origin"} $1 }

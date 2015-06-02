@@ -1,5 +1,6 @@
 zsh/config.private
 gem/credentials
+config/gitconfig.private
 bash_history
 ec2
 ssh

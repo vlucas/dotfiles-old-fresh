@@ -16,6 +16,9 @@ alias la='ls -A'
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
+alias muxbackup="cp -R ~/.tmuxinator/ ~/Dropbox/tmuxinator"
+alias muxrestore="cp -R ~/Dropbox/tmuxinator/ ~/.tmuxinator"
+
 # Misc
 alias v=vim
 alias x=exit

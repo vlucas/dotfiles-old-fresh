@@ -1,7 +1,7 @@
 # ~/.tmuxinator/nsokc.yml
 
 name: CMS_OKC
-root: /webdev/NetLedger_CMS_OKC
+root: /webdev/NetLedger_CMS_OKC/cms/2
 pre: tmux set-window-option -g monitor-activity off
 windows:
   - editor: vim

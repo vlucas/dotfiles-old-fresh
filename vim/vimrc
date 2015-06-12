@@ -1,6 +1,7 @@
 " Misc
 set nowrap                                  " I don't always wrap lines...
 set linebreak                               " ...but when I do, I wrap whole words.
+set relativenumber                          " show relative line numbers, but actual line number for current line
 set t_Co=256                                " Support for xterm with 256 colors (gets overriden in .gvimrc)
 set number                                  " Show line numbers
 set ruler                                   " Show ruler

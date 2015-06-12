@@ -19,6 +19,7 @@ Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'airblade/vim-gitgutter'
 
 " Editing
+Bundle 'editorconfig/editorconfig-vim'
 Bundle 'godlygeek/tabular'
 Bundle 'twe4ked/vim-diff-toggle'
 Bundle 'tomtom/tcomment_vim'

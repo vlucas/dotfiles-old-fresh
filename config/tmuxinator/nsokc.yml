@@ -2,8 +2,8 @@
 
 name: CMS_OKC
 root: /webdev/NetLedger_CMS_OKC/cms/2
-pre: tmux set-window-option -g monitor-activity off
+pre: tmux set-window-option -g monitor-activity off && source /webdev/.perforce
 windows:
   - editor: vim
   - shell:
-  - test:
+  - build: cd base

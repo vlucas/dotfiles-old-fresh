@@ -41,6 +41,3 @@ typeset -U path
 
 # Add Homebrew to path
 path=(/usr/local/bin "$path[@]")
-
-# Add current gem path to path; See: https://gist.github.com/ericboehs/5329013
-path=($(cd $(which gem)/..;pwd) "$path[@]")

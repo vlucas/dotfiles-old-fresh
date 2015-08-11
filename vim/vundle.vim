@@ -4,12 +4,10 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'sickill/vim-pasta'
 Bundle 'bufkill.vim'
 Bundle 'kana/vim-textobj-user'
-Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'tpope/vim-eunuch'
 
 " Tmux
 Bundle 'benmills/vimux'
-Bundle 'jingweno/vimux-zeus'
 
 " Visual
 Bundle 'dterei/VimBookmarking'

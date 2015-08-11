@@ -19,6 +19,11 @@ set history=10000
 set autoread
 set backspace=indent,eol,start              " Allow backspace in insert mode
 
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+" Close NERDTree if it is the only window left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 autocmd FileType gitcommit set spell        " Turn on spell check in Git commits.
 
 " Treat dashed words as whole words in stylesheets

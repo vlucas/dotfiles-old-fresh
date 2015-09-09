@@ -41,3 +41,8 @@ typeset -U path
 
 # Add Homebrew to path
 path=(/usr/local/bin "$path[@]")
+# Add Homebrew PHP to path
+path=($(brew --prefix homebrew/php/php56)/bin "$path[@]")
+
+# Source local zsh config for overrides
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local

@@ -26,6 +26,7 @@ alias cl=clear
 alias ee='eval $(cat .env)'
 alias json="python -mjson.tool"
 alias xml="xmllint --format -"
+alias chime="afplay /System/Library/Sounds/Glass.aiff"
 
 ## Used in a blue moon
 # tmux ssh agent forwarding hack
